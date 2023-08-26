@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'poppins', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'poppins', Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.User{
+  display: flex;
+  padding: 21px 18px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: calc(min(90%, 550px));
+  height: fit-content;
+  min-height: 350px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.quotes{
+  color: skyblue;
+}
+@media screen and (max-width: 770px) {
+  .quotes{
+    height: 23px !important;
+  }
+}
+
+.UserInfo{
+  text-align: center;
+}
+
+.UserName{
+  letter-spacing: .05em;
+  font-size: 25px;
+  margin-bottom: -14px;
+}
+
+.UserThoughts{
+  text-align: center;
+  font-size: 18px;
+}
+
+.Page{
+  margin-top: 17px;
+}
+
+.movement{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 11px;
+  font-size: 18px;
+  color: rgb(98, 98, 61);
+}
+
+.movement div{
+  color: #000;
+}
+
+.Arrow{
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.goRandom{
+  margin-top: 17px;
+  background: none;
+  border: none;
+  border-radius: 12px;
+  background-color: slateblue;
+  font-size: 17px;
+  padding: 11px 17px;
+  color: #fff;
+  cursor: pointer;
+}
